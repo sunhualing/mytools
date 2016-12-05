@@ -1,5 +1,5 @@
 #/bin/bash
-
+#This is used to collect the hardware information
 #1. Check the CPU Information and type
 echo '1. Check the CPU Information and type'
 cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c
